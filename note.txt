@@ -1,0 +1,60 @@
+---------------------------------------------
+
+File structure
+
+-> Package.json
+- All important information about project
+- name,version depedencies
+
+-> Node Module
+- npm install rebuild
+- library needed installed here
+
+-> Component
+- code reuseable
+
+-> Enviromenet
+- regarding development File
+- testing build,production build,development build
+
+-> main.js
+- bootstrap the files(we have to provide support to run angular in html file)
+
+-> Package-lock.json
+- package details
+- look like package.json
+
+-> angular.json
+- configuration file of angular
+- first page load
+
+-> tsconfig.json
+- global typescript configuration
+
+-> tsconfig-app.json
+- our application configuration
+
+-> tsconfig-spec.json
+- spec file configuration
+
+-> .browserslistrc
+- which browser support
+
+-> karma.conf.js
+- which file,port,browser,library,path load etc
+
+-> polyfills.js
+- support browser files include option
+
+************************************************************
+-> if we delete package.json then our project should not being working model.
+-> Package.json contain overview and package-lock.json contain details
+************************************************************
+
+-> {{}} is called interpolation to print ts file to html
+-> function,variable,other js operation like arithmatic can print in interpolation
+-> we can not assign the value of variable in interpolation
+-> typeof operator is also not work in interpolation
+-> increment decrement is also not working.
+-> we have add class or name dynamically using typescript in interpolation
+
