@@ -58,3 +58,36 @@ File structure
 -> increment decrement is also not working.
 -> we have add class or name dynamically using typescript in interpolation
 
+---------------------------------------------
+
+-> component is a file which contain specific module which use many times
+
+---------------------------------------------
+
+-> If we do not required style file we can use ng g c name --inline-style
+-> It is use for when we not write much more css and most of css comes from global style.css file
+-> If we do not required html file we can use ng g c name --inline-template
+-> It is use for when we have to use only few tags in file
+-> We can use both at a same time using --inline-style --inline-template
+
+---------------------------------------------
+
+-> Module is big functionallity it contains many more services,pipes,components
+-> Ex userauth is a module which contain login,signup,forget Password,api call,helpers
+-> ng stands for next generation
+-> module contain one file
+-> ng g m user-auth
+-> ng g c user-auth/login
+-> When user-auth load then login,signup load in memory
+-> at initial stage all component load at run time
+
+---------------------------------------------
+
+-> tsconfig.json -> "strict": true if we set strict:false then we can write javascript
+-> ex in function pass we can not required to write string,number etc for any variable
+
+---------------------------------------------
+
+
+
+
