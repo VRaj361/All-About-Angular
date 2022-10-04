@@ -10,6 +10,11 @@ import { InlineStyleTemplateComponent } from './inline-style-template/inline-sty
 import { UserAuthModule } from './user-auth/user-auth.module';
 import { FunctioncallComponent } from './functioncall/functioncall.component';
 import { EventsComponent } from './events/events.component';
+import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { IfElseComponent } from './if-else/if-else.component';
+import { SwitchcaseComponent } from './switchcase/switchcase.component';
+import { ForloopComponent } from './forloop/forloop.component';
+import { StyleBindingComponent } from './style-binding/style-binding.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +24,11 @@ import { EventsComponent } from './events/events.component';
     InlineStyleTemplateComponent,
     FunctioncallComponent,
     EventsComponent,
+    PropertyBindingComponent,
+    IfElseComponent,
+    SwitchcaseComponent,
+    ForloopComponent,
+    StyleBindingComponent,
 
   ],
   imports: [

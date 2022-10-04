@@ -1,0 +1,22 @@
+<br/>
+<p>if-else works!</p>
+<!-- <h1 *ngIf="show; then ifblock else elseblock"></h1> -->
+<h1 *ngIf="show == 'yes'; then ifblock else elseblock"></h1>
+<ng-template #ifblock>
+
+  <h1>If block</h1>
+</ng-template>
+<ng-template #elseblock>
+
+  <h1 >else block</h1>
+</ng-template>
+<br>
+<ng-template [ngIf]="color=='red'">
+  <h1>red</h1>
+</ng-template>
+<ng-template [ngIf]="color=='blue'">
+  <h1>blue</h1>
+</ng-template>
+<ng-template [ngIf]="color=='green'">
+  <h1>green</h1>
+</ng-template>

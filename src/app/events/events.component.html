@@ -13,4 +13,14 @@
 <br>
 <br>
 <input type="text" #input4 placeholder="enter the blur" (blur)="getData14(input4.value)">
+<br>
+<br>
+<input type="text" #input5 placeholder="button click event" name="name">
+<button (click)="getData15(input5.placeholder)">Click</button>
+<p>{{dataValue}}</p>
+<br>
+<br>
+<button (click)="getCounter('m')">-</button>
+<p>{{counter}}</p>
+<button (click)="getCounter('a')">+</button>
 

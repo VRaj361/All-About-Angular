@@ -1,0 +1,13 @@
+<p>forloop works!</p>
+
+<h2 *ngFor="let u of users">
+  {{u}}
+</h2>
+<h2 *ngFor="let user of userD">
+  {{user.name}} -- {{user.email}}
+</h2>
+<ul *ngFor="let us of user">
+  <li>{{us.name}}</li>
+  <li>{{us.email}}</li>
+  <ul *ngFor="let u of us.soc">{{u}}</ul>
+</ul>

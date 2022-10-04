@@ -88,6 +88,13 @@ File structure
 
 ---------------------------------------------
 
+-> precedence for css
+-> inline >> internal >> external
 
+---------------------------------------------
 
+-> property binding and interpolation
+-> property binding is use for changing the values in all datatyfa-pulse
+-> interpolation is printing numeric and string values it is not work for boolean values
 
+---------------------------------------------

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EventsComponent implements OnInit {
 
   constructor() { }
-
+  dataValue:string='';
   ngOnInit(): void {
   }
   getData(name:string){
@@ -28,5 +28,14 @@ export class EventsComponent implements OnInit {
   }
   getData14(name:string){
     console.log(name)
+  }
+  getData15(name:string){
+    console.log(name)
+    this.dataValue = name;
+  }
+
+  counter:number=0;
+  getCounter(type:string){
+    type == 'm'?this.counter--:this.counter++;
   }
 }
