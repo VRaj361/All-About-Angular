@@ -15,6 +15,9 @@ import { IfElseComponent } from './if-else/if-else.component';
 import { SwitchcaseComponent } from './switchcase/switchcase.component';
 import { ForloopComponent } from './forloop/forloop.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
+import { RecapchaComponent } from './recapcha/recapcha.component';
+import { ReactiveFormsModule,FormsModule } from '@angular/forms';
+import { NgxCaptchaModule } from 'ngx-captcha';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,11 +32,15 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
     SwitchcaseComponent,
     ForloopComponent,
     StyleBindingComponent,
+    RecapchaComponent,
 
   ],
   imports: [
     BrowserModule,
-    UserAuthModule
+    UserAuthModule,
+    ReactiveFormsModule,
+    NgxCaptchaModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
